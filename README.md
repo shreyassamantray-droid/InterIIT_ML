@@ -1,4 +1,4 @@
-# AI Meeting Assistant
+# Meeting Assistant
 
 Upload a recorded English meeting and get a raw transcript, a domain-refined transcript, structured minutes, key decisions and action items, all from one run.
 
@@ -10,7 +10,7 @@ All three models are Google Gemini, so you only need one API key.
 |---|---|---|
 | 1. Speech-to-text | `gemini-3.5-transcribe` | Audio to raw transcript |
 | 2. Refinement (LLM-A) | `gemini-3.5-flash-lite` | Fixes recognition errors in technical terms and acronyms without changing meaning |
-| 3. Documentation (LLM-B) | `gemini-3.8-flash` | Refined transcript to summary, minutes, decisions, action items (structured JSON output) |
+| 3. Documentation (LLM-B) | `gemini-3.6-flash` | Refined transcript to summary, minutes, decisions, action items (structured JSON output) |
 
 Models are set in `.env` and can be changed there.
 
