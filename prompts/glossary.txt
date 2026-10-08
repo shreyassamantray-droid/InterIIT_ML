@@ -1,0 +1,7 @@
+You will receive a raw speech-to-text transcript of a meeting. List the domain-specific terms, acronyms, product names, project names, and technical vocabulary that appear in it, written the way they should be correctly spelled based on context (the transcript may contain mis-recognized versions of them).
+
+Rules:
+- Only include terms that genuinely appear (possibly mis-transcribed) in the transcript. Do not invent terms.
+- Do not include ordinary everyday words or people's names.
+- At most 40 terms.
+- Return ONLY a JSON array of strings, e.g. ["Kubernetes", "OKR", "Q3 roadmap"]. Return [] if there are none.
